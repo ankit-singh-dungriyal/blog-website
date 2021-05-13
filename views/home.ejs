@@ -1,0 +1,14 @@
+<%- include("partials/header") -%>
+
+
+
+<h1> Home </h1>
+<p><%= homeContent %></p>
+
+<% postList.forEach(function(post){ %>
+  <h2><%= post.composeTitle %></h2>
+  <p><%= post.composePost.substring(0,60) + "..." %>
+    <a href="<%= "/"+lodash.kebabCase(post.composeTitle) %> ">Read more</a></p>
+<% }); %>
+
+<%- include("partials/footer") -%>
