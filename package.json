@@ -1,17 +1,30 @@
 {
-  "name": "ejs-challenge",
+  "name": "blog-website",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Ankit Singh Dungriyal",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
-    "lodash": "^4.17.21"
-  }
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.9"
+  },
+  "engines": {
+    "node": "14.16.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankit-singh-dungriyal/blog-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ankit-singh-dungriyal/blog-website/issues"
+  },
+  "homepage": "https://github.com/ankit-singh-dungriyal/blog-website#readme",
+  "description": ""
 }
