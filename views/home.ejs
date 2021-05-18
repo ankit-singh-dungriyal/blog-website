@@ -7,7 +7,7 @@
 
 <% blogs.forEach(function(blog){ %>
   <h2><%= blog.title %></h2>
-  <p><%= blog.post.substring(0,60) + "..." %>
+  <p><%= blog.post.substring(0,200) + "..." %>
     <a href="<%= "/"+lodash.kebabCase(blog.title) %> ">Read more</a></p>
 <% }); %>
 
